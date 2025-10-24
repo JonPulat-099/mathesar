@@ -175,19 +175,19 @@ const docsPages = {
 export type DocsPage = keyof typeof docsPages;
 
 export function getDocsLink(page: DocsPage): string {
-  return `https://docs.mathesar.org${docsPages[page]}`;
+  return '#';
 }
 
 const marketingPages = {
-  community: '/community',
-  donate: '/donate',
-  privacy: '/privacy',
-  mailingList: '/mailing-list',
-  survey: '/survey',
+  community: '#',
+  donate: '#',
+  privacy: '#',
+  mailingList: '#',
+  survey: '#',
 };
 
 export type MarketingPage = keyof typeof marketingPages;
 
 export function getMarketingLink(page: MarketingPage): string {
-  return `https://mathesar.org${marketingPages[page]}`;
+  return `${marketingPages[page]}`;
 }

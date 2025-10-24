@@ -161,7 +161,9 @@
       </svelte:fragment>
     </SchemaOverviewSideSection>
 
-    <FormsSection />
+    {#if false}
+      <FormsSection />
+    {/if}
   </div>
 </div>
 

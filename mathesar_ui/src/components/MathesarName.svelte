@@ -7,18 +7,9 @@
   const path = (Array.isArray(paths) ? paths : [paths]).at(0);
 </script>
 
-{#if path}
-  <svg
-    class="mathesar-name"
-    version="1.1"
-    viewBox="0 0 {viewBoxWidth} {viewBoxHeight}"
-    height="0.77em"
-    role="img"
-    aria-label={staticText.MATHESAR}
-  >
-    <IconPath {path} />
-  </svg>
-{/if}
+<div>
+  Solutions
+</div>
 
 <style>
   .mathesar-name {
