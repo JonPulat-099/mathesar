@@ -28,6 +28,7 @@ This schema holds types which the user might utilize in their own tables as well
 
 SQL code is tested using [pgTAP](https://pgtap.org/).
 
+
 - Run all tests:
 
     ```
